@@ -1,4 +1,5 @@
-#  ExpenseTrackerFinance Tracker Web Application
+#  ExpenseTracker
+# Finance Tracker Web Application
 
 
 Team Members
