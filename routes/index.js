@@ -1,8 +1,8 @@
-import expenseTrackerRoutes from './expenseTracker.js'; 
+import usersRoutes from './users.js'; 
 import path from 'path';
 
-const constructorMethod = (app) => {
-  app.use('/', expenseTrackerRoutes);
+const constructorMethod = (app) => { 
+  app.use('/users', usersRoutes);
   app.use('*', (req, res) => {res.redirect('/');}); 
 };
 
