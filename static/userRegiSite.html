@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>User Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/public/css/userRegiSite-styles.css">
+</head>
+
+<body>
+    <main>
+        <article> 
+            <h1>User Registration Form</h1> 
+            <header>
+                <p>Header: Final Project: Expese Tracker</p>
+            </header>
+            <p class="description"> This website will allow a new user to register for <a href="/">expense tracker web application</a>.  
+               Please, fill out the form below! </p>     
+                 
+            <form action="/newUser" method="POST" class="newUser-list"> 
+                <label>Fist Name:
+                   <input type="text" id="newUserFistName" name="newUserFistName" placeholder="Faith"> <br>
+                </label>
+                <label>Last Name:
+                   <input type="text" id="newUserLastName" name="newUserLastName" placeholder="Kim"><br> 
+                </label> 
+                <label>Email:
+                    <input type="email" id="newUserEmail" name="newUserEmail" placeholder="fkim@steves.edu"><br> 
+                </label>
+                <label>User Name:
+                    <input type="text" id="newUserUserName" name="newUserUserName" placeholder="fkim"><br> 
+                </label>
+                <label>Password:
+                    <input type="password" id="newUserPassword" name="newUserUserName" placeholder="fkim"><br> 
+                </label>
+                <label>City:
+                    <input type="text" id="newUserCity" name="newUserCity" placeholder="Fort Lee"><br> 
+                </label>
+                <label>State:
+                    <input type="text" id="newUserState" name="newUserState" placeholder="Select" list="stateList"><br> 
+                    <datalist id="stateList">
+                        <option value="CT">
+                        <option value="NJ">
+                        <option value="NY">
+                        <option value="PA">
+                    </datalist>
+                </label>
+                <label>Age:
+                    <input type="number" id="newUserAge" name="newUserAge" placeholder="52"><br> 
+                </label>
+
+               <button type="submit">search</button>
+           </form> 
+        </article>
+    </main>
+</body>
+
+</html>
