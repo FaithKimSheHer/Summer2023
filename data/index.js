@@ -1,3 +1,3 @@
-import * as expenseTrackerDataFunctions from './expenseTracker.js';  
+import * as usersDataFunctions from './users.js'; 
 
-export const expenseTrackerData = expenseTrackerDataFunctions; 
+export const usersFuncs = usersDataFunctions; 
